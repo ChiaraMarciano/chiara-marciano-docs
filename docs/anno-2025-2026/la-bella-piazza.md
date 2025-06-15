@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 title: La Bella Piazza
 tags:
@@ -7,6 +6,7 @@ tags:
   - documentazione
   - osservazione
 ---
+
 
 # La Bella Piazza – Progetto Garibaldi
 
@@ -27,8 +27,3 @@ Piazza Garibaldi è simbolica. È luogo di transito, di contraddizioni, di stori
 ---
 
 *La Bellezza non è solo estetica: è relazione, trasformazione e responsabilità. La Bella Piazza è tutto questo — e noi ne facciamo parte.*
-=======
-# Progetto "La Bella Piazza"
-
-Il progetto si concentra su Piazza Garibaldi...
->>>>>>> c343951570e184f95279c0d06ed0007697a31e95
