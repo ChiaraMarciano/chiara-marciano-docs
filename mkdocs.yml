@@ -1,0 +1,83 @@
+site_name: Documentazione di Chiara Marciano
+site_url: https://ChiaraMarciano.github.io/chiara-marciano-docs/
+repo_url: https://github.com/ChiaraMarciano/chiara-marciano-docs/
+repo_name: GitHub
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  logo: images/1x/logo.png
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      primary: light blue
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.instant.preview
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.share
+    # - toc.integrate
+    - header.autohide
+    - content.code.annotate
+    - content.action.edit
+    - content.action.view
+    - content.tabs.link
+    - content.code.copy 
+
+
+nav:
+  - Home: index.md
+  - Tags: tags.md
+  - Chi sono: chi-sono.md
+  - Contatti: contatti.md
+  - Documentazione tecnica: codice.md
+  - Anno 2025–2026:
+      - La Bella Piazza: anno-2025-2026/la-bella-piazza.md
+      - Gruppo Lettering: anno-2025-2026/gruppo-lettering.md
+      - Gruppo Transcultura: anno-2025-2026/gruppo-transcultura.md
+  - Changelog:
+      - Registro modifiche: changelog/changelog.md
+      - Cronologia: changelog/timeline.md
+
+
+
+extra_css:
+   - styles/custom.css 
+  
+
+markdown_extensions:
+  - codehilite
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - attr_list
+  - md_in_html
+
+plugins:
+  - search
+  - tags

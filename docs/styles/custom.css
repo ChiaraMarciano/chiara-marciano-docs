@@ -1,0 +1,79 @@
+<<<<<<< HEAD
+/* Custom style */
+.md-nav__link { border-radius: 8px; padding: 4px 8px; }
+.md-typeset h1 { color: #00695c; font-family: 'Georgia', serif; }
+.carousel-img {
+    transition: transform 0.3s ease;
+  }
+  
+  .carousel-img:hover {
+    transform: scale(1.05);
+  }
+  .md-tags a.md-tag {
+    display: inline-block;
+    background-color: #e0f7fa;
+    color: #00695c;
+    padding: 4px 10px;
+    margin: 4px 6px 4px 0;
+    border-radius: 16px;
+    font-size: 0.7rem; /* 👈 tag più piccoli */
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .md-tags a.md-tag:hover {
+    background-color: #b2ebf2;
+    color: #004d40;
+  }
+ /* Timeline visual style migliorato */
+.timeline {
+    border-left: 3px solid #00695c;
+    padding-left: 30px; /* più spazio tra bordo e testo */
+    margin-top: 30px;
+    position: relative;
+  }
+  
+  .timeline-entry {
+    margin-bottom: 30px;
+    position: relative;
+  }
+  
+  .timeline-entry::before {
+    content: "●";
+    color: #00695c;
+    position: absolute;
+    left: -22px; /* più a sinistra rispetto al testo */
+    top: 0;
+    font-size: 1.2em;
+  }
+  
+  .timeline-entry h3 {
+    margin-bottom: 6px;
+    color: #004d40;
+    font-weight: 600;
+  }
+  
+  .timeline-entry p {
+    margin: 0;
+  }
+  a.md-button {
+    background-color: #0288d1;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  a.md-button:hover {
+    background-color: #0277bd;
+  }
+    
+=======
+/* Stile personalizzato */
+.md-nav__item .md-nav__link {
+  border-radius: 10px;
+}
+>>>>>>> c343951570e184f95279c0d06ed0007697a31e95
