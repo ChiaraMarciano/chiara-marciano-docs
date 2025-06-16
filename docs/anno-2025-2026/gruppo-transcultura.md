@@ -32,7 +32,7 @@ Parallelamente, abbiamo avviato una **ricerca dermografica**, ispirandoci al pro
 
 <p align="center">
   <video width="600" controls autoplay loop muted>
-    <source src="../../media/clip.mp4" type="video/mp4">
+    <source src="../clip.MP4" type="video/MP4">
     Il tuo browser non supporta il tag video.
   </video>
 </p>
