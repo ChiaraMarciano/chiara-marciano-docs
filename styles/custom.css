@@ -1,0 +1,62 @@
+/* Custom style */
+.md-nav__link { 
+    border-radius: 8px; 
+    padding: 4px 8px; 
+  }
+  
+  .md-nav__item .md-nav__link {
+    border-radius: 10px;
+  }
+  
+  .md-typeset h1 { 
+    color: #00695c; 
+    font-family: 'Georgia', serif; 
+  }
+  
+  .carousel-img {
+    transition: transform 0.3s ease;
+  }
+  
+  .carousel-img:hover {
+    transform: scale(1.05);
+  }
+  
+  .md-tags a.md-tag {
+    display: inline-block;
+    background-color: #e0f7fa;
+    color: #00695c;
+    padding: 4px 10px;
+    margin: 4px 6px 4px 0;
+    border-radius: 16px;
+    font-size: 0.7rem; /* tag più piccoli */
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .md-tags a.md-tag:hover {
+    background-color: #b2ebf2;
+    color: #004d40;
+  }
+  
+  /* Timeline visual style migliorato */
+  .timeline {
+    border-left: 3px solid #00695c;
+    padding-left: 30px; /* più spazio tra bordo e testo */
+    margin-top: 30px;
+    position: relative;
+  }
+  
+  .timeline-entry {
+    margin-bottom: 30px;
+    position: relative;
+  }
+  /* Colore personalizzato per titoli h2 */
+article h2 {
+    color: #1f5c5a; /* verde petrolio, cambia se vuoi */
+    font-weight: 700;
+    border-left: 4px solid #1f5c5a;
+    padding-left: 12px;
+    margin-top: 2em;
+  }
+  
